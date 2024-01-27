@@ -1,0 +1,48 @@
+
+
+
+/*NAV*/
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+    background-color: beige;
+    color: black;
+    border-bottom: 2px solid;
+    height: 7rem;
+}
+
+.navbar-brand{
+color: rgb(139, 79, 0);
+
+}
+
+.navbar-toggler{
+    color: grey;
+
+}
+
+a:hover{
+   color: rgb(110, 3, 3); 
+   cursor: pointer;
+   transition: 1s;
+   font-weight: bolder;
+}
+
+.btn{
+    color: rgb(110, 3, 3);
+}
+
+.logo img{
+    width: 10rem;
+    padding-left: 1.2rem;
+    
+}
+
+#buscar{
+    background-color:rgb(248,249,250) ;
+}
+  
