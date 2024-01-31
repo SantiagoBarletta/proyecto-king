@@ -1,0 +1,27 @@
+/*CARRUSEL*/
+
+
+
+.carousel {
+    
+    padding-top: 3px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+    background-image: url(./imgKing/rojo22.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+.carousel-items{
+    border-radius: 0%;  
+}

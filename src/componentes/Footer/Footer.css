@@ -1,0 +1,22 @@
+
+
+/*FOOTER*/
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: rgb(243,227,49);
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
