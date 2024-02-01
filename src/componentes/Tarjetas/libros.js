@@ -74,8 +74,6 @@ const libros = [
     sinopsis: "Paul Sheldon es un escritor, famoso por una serie de novelas románticas ambientadas en la época victoriana, cuyo personaje principal es Misery Chastain. Su última novela publicada, 'El hijo de Misery', plantea la muerte de la protagonista y el final de la serie. Camino a Los Ángeles, lo sorprende una tormenta de nieve y sufre un accidente de tránsito. Despierta en la casa de Annie Wilkes."
 }
 
-
-
-
-
 ]
+
+export default libros
