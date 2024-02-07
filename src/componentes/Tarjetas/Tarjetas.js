@@ -8,9 +8,8 @@ function Tarjetas (props) {
 
     return(
 
-        <main className="tarjetasFlex">
 
-            
+          
 
         <div className="card">
             <img src= {imagenes[props.imagen]} className="card-img-top" alt="Imágen de la portada del libro {props.titulo}"/>
@@ -21,7 +20,9 @@ function Tarjetas (props) {
             </div>
         </div>
 
-        </main>
+       
+
+
 
 
 

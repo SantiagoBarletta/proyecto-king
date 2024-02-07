@@ -11,9 +11,12 @@ import img11 from '../../assets/imgKing/Revival.jpg'; //comento
 import img12 from '../../assets/imgKing/misery-1.jpg'; //comento
 import img1 from '../../assets/imgKing/1922.webp'; //comento
 
+import fondoContacto from '../../assets/imgKing/rojo.jpg'; //Santi, esta es la img de fondo de Contacto
+
 
 const imagenes = {
     img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12
 }
 
 export default imagenes;
+

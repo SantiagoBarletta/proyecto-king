@@ -1,3 +1,9 @@
+/*TIPOGRAFIA TARJETAS*/
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Bellefair&family=Cinzel&family=DM+Sans:opsz@9..40&family=Dancing+Script:wght@600&family=Kurale&family=Life+Savers&family=Merriweather:wght@300&family=Montez&family=Montserrat:wght@300;400;700&family=Sorts+Mill+Goudy&family=Spectral&display=swap");
+/*font-family: 'Spectral', serif;*/
+/*TIPOGRAFIA MENU*/
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Bellefair&family=Cinzel&family=DM+Sans:opsz@9..40&family=Dancing+Script:wght@600&family=Kurale&family=Life+Savers&family=Merriweather:wght@300&family=Montez&family=Montserrat:wght@300;400;700&family=Source+Sans+3&display=swap");
+
 .App {
   text-align: center;
 }
