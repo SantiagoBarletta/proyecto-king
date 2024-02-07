@@ -4,9 +4,16 @@ import './Tarjeta.css';
 
 function ListaDeLibros (){
 
+
+
     return(
-        
-      <div>
+      <>
+       <div className="titulo">
+     <h1>Obras Escritas</h1>
+       </div>
+      
+      <main className = "tarjetasFlex">
+      
 
         {libros.map((libro, index) => ( <Tarjetas
                 
@@ -20,8 +27,7 @@ function ListaDeLibros (){
              />))
         }
 
-      </div>
-    )
+      </main></> )
 }
 
 export default ListaDeLibros;
