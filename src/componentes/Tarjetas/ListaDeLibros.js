@@ -24,6 +24,8 @@ function ListaDeLibros (){
              imagen = {libro.imagen}
              
              sinopsis = {libro.sinopsis}
+
+             precio = {libro.precio}
              />))
         }
 

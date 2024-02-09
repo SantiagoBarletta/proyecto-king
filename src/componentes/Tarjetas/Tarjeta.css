@@ -54,3 +54,7 @@
 .card-img-top{
     height: 25rem;
  }
+
+ .precio {
+    font-weight: 700;
+ }

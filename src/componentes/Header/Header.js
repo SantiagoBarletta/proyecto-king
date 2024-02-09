@@ -17,8 +17,8 @@ function Header () {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav><Link to="/">Home</Link></Nav>
-              <Nav><Link to="/contacto">Contacto</Link></Nav>
+              <Nav.Link><Link to="/">Home</Link></Nav.Link>
+              <Nav.Link><Link to="/contacto">Contacto</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -26,6 +26,9 @@ function Header () {
     );
 
 
+
+
+    
 }
 
 export default Header;

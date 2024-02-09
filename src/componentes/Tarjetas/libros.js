@@ -3,15 +3,15 @@ const libros = [
 {
     imagen: "img1",
     titulo: "1922",
-    sinopsis: "1922 es un relato en primera persona de Wilfred James, el narrador no fiable de nuestra historia. Escribe una larga confesión del asesinato de su esposa, Arlette, en Hemingford Home, Nebraska en 1922."
-
+    sinopsis: "1922 es un relato en primera persona de Wilfred James, el narrador no fiable de nuestra historia. Escribe una larga confesión del asesinato de su esposa, Arlette, en Hemingford Home, Nebraska en 1922.",
+    precio: 1200
 },
 
 {
     imagen: "img2",
     titulo: "Cementerio de Animales",
-    sinopsis: "Louis Creed, un buen médico, se instala en una hermosa casa en Ludlow junto con su esposa y sus dos hijos. Al llegar al lugar conoce a Judson 'Jud' Crandall, un viejo y amable vecino de los Creed con quien terminan enlazando una amistad. Sin embargo, no todo es tan hermoso como parece."
-
+    sinopsis: "Louis Creed, un buen médico, se instala en una hermosa casa en Ludlow junto con su esposa y sus dos hijos. Al llegar al lugar conoce a Judson 'Jud' Crandall, un viejo y amable vecino de los Creed con quien terminan enlazando una amistad. Sin embargo, no todo es tan hermoso como parece.",
+    precio: 1300
 },
 
 {
