@@ -7,19 +7,33 @@ import Carrusel from "./componentes/Carrusel/Carrusel";
 import ListaDeLibros from './componentes/Tarjetas/ListaDeLibros';
 import Aside from './componentes/Aside/Aside';
 import Contacto from './componentes/Contacto/Contacto';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'; //Rutas
 
 function App() {
   return (
 
-    <div>
+    //esta pag va a estar routeada
+    <Router> 
+
+    
     <Header/>
     <Carrusel/>
-    <ListaDeLibros/>
+
+    <main>
+
+      <Routes>
+        <Route path='/' element={<ListaDeLibros/>}/>
+        <Route path='/contacto' element={<Contacto/>}/>
+        <Route path='/comprar/:id' element={<Aside/>}/>
+      </Routes>
+
+    </main>
+
     <Aside/>
-    <Contacto/>
     <Footer/>
-   
-    </div>
+    
+
+    </Router>
 
   );
 }

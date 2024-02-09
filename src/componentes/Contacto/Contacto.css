@@ -19,7 +19,7 @@
   
   .mainContacto {
     background-color: aliceblue;
-    background-image: url(./imgKing/rojo.jpg); 
+    background-image: url(../../assets/imgKing/rojo.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

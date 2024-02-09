@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom';
 import logo from '../../assets/imgKing/logo-nombre.png'; //comento
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,12 +13,12 @@ function Header () {
     
         <Navbar expand="lg" className="bg-body-tertiary navbar">
         <Container>
-          <Navbar.Brand className="logo" href="#home"><img src={logo}/></Navbar.Brand>
+          <Navbar.Brand className="logo" href="/"><img src={logo}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Contacto</Nav.Link>
+              <Nav><Link to="/">Home</Link></Nav>
+              <Nav><Link to="/contacto">Contacto</Link></Nav>
             </Nav>
           </Navbar.Collapse>
         </Container>
