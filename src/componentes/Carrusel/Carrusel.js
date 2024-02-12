@@ -4,6 +4,9 @@ import carru2 from '../../assets/imgKing/carrruu2.jpg'; //comento
 import carru3 from '../../assets/imgKing/carru1.gif'; //comento
 import Carousel from 'react-bootstrap/Carousel';
 
+
+
+
 function Carrusel() {
   return (
     <Carousel data-bs-theme="dark">
@@ -33,3 +36,4 @@ function Carrusel() {
 }
 
 export default Carrusel;
+

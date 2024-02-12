@@ -6,6 +6,11 @@
     align-content: center;
     justify-content: space-evenly;
     align-items: stretch;
+    background-image: url(../../assets/imgKing/BosqueAzul\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: #212529;
     border-top: 1.5px solid black;
 }

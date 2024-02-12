@@ -15,8 +15,10 @@ function Tarjetas (props) {
             <div className="card-body">
                 <h5 className="card-title">{props.titulo}</h5>
                 <p className="card-text">{props.sinopsis}</p>
+                <div className="botonPrecio">
                 <p className='precio'>Precio: $ {props.precio}</p>
                 <a href="#" className="btn btn-danger">Comprar</a>
+                </div>
             </div>
         </div>
 
