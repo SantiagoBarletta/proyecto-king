@@ -1,15 +1,14 @@
-import './Carrusel';
+import './Carrusel.css';
 import carru1 from '../../assets/imgKing/carru2.jpg'; //comento
 import carru2 from '../../assets/imgKing/carrruu2.jpg'; //comento
 import carru3 from '../../assets/imgKing/carru1.gif'; //comento
 import Carousel from 'react-bootstrap/Carousel';
 
 
-
-
 function Carrusel() {
   return (
-    <Carousel data-bs-theme="dark">
+<main className="carousel-container" >
+    <Carousel data-bs-theme="dark" >
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -32,6 +31,9 @@ function Carrusel() {
         />
       </Carousel.Item>
     </Carousel>
+    </main>
+  
+    
   );
 }
 

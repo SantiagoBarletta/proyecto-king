@@ -1,27 +1,23 @@
 /*CARRUSEL*/
-
-.carousel {
-    padding-top: 3px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    background-image: url(../../assets/imgKing/rojo22.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  padding: 0 5rem;
+  background-image: url(../../assets/imgKing/rojo22.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: "80%";
+  margin: "0 auto";
 }
 
-.carousel-inner{
-    height: 500px;
+.contenedorCarru-inner {
+  height: 500px;
 }
 
-.carousel-items{
-    border-radius: 20%;
-    margin: 8rem;  
+.contenedorCarru-items {
+  border-radius: 20%;
+  margin: 8rem;
+  padding: 10%;
 }
-
-
-
-
