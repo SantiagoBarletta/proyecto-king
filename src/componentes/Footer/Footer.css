@@ -26,3 +26,11 @@
 
 }
 
+.textoFooter{
+    font-size: 0.8rem;
+}
+
+.contFooter{
+    border-top: 2px solid black;
+}
+

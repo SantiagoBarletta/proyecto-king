@@ -17,7 +17,7 @@
 } 
 .tarjetasFlex{
     border-bottom: 1px solid rgb(210,210,210);
-    background-color:rgb(235, 235, 186);
+    background-color:black;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: row;
@@ -31,6 +31,7 @@
     margin-top: 30px;
     font-family: 'Spectral', serif;
     width: 18rem;
+    background-color: #212529;
 }
 .card-body{
     background-color: rgb(252, 249, 249);

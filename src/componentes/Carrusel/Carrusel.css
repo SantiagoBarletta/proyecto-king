@@ -2,13 +2,18 @@
 .carousel-container {
   position: relative;
   overflow: hidden;
-  padding: 0 5rem;
-  background-image: url(../../assets/imgKing/rojo22.jpg);
+  padding-left:  8rem;
+  padding-right: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid black;
+  
+  background-image: url(../../assets/imgKing/BosqueAzul\ \(4\).jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  width: "80%";
+  width: "60%";
   margin: "0 auto";
 }
 

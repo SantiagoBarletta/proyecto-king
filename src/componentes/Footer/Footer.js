@@ -15,10 +15,10 @@ import Navbar from 'react-bootstrap/Navbar';
 function Footer() {
   return (
     <>
-      <Navbar bg="light" data-bs-theme="light">
+      <Navbar className='contFooter' bg="light" data-bs-theme="light">
         <Container>
         <Navbar.Brand className="logoFooter" href="/"><img src={logo}/></Navbar.Brand>
-          <Navbar.Brand href="#">&copy; Company, Inc. loaCssociopatas@2024.</Navbar.Brand>
+          <Navbar.Brand className="textoFooter" href="#">&copy; Company, Inc. loaCssociopatas@2024.</Navbar.Brand>
           <Nav className="me-3">
             <Nav.Link href="#"> <i className="bi bi-instagram"></i> 
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
