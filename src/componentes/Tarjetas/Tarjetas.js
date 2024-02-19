@@ -8,8 +8,6 @@ function Tarjetas (props) {
 
     return(
 
-   
-
         <div className="card">
             <img src= {imagenes[props.imagen]} className="card-img-top" alt="Imágen de la portada del libro {props.titulo}"/>
             <div className="card-body">
@@ -21,7 +19,6 @@ function Tarjetas (props) {
                 </div>
             </div>
         </div>
-
 
     )
 

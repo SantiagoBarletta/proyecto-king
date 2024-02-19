@@ -23,7 +23,8 @@ function ApiLibros() {
   
     return (
        <> 
-         <h1>Libros de Stephen King</h1>
+       <div className='titulo'><h1>Libros de Stephen King</h1></div>
+         
     <main className = "tarjetasFlex">
 
 

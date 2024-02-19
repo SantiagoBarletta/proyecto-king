@@ -12,8 +12,10 @@ function ListaDeLibros (){
       <>
       <Carrusel/>
 
+      <div></div>
+
        <div className="titulo">
-     <h1>Obras Escritas</h1>
+        <h1>Libros en Venta</h1>
        </div>
       
       <main className = "tarjetasFlex">
@@ -34,6 +36,7 @@ function ListaDeLibros (){
         }
 
       </main>
+      
 
       <Aside/>
       </> )
