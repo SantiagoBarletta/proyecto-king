@@ -35,7 +35,7 @@ function ApiLibros() {
         <h5 className="card-title">{book.title}</h5>
         <p>Año de publicación: {book.first_publish_year}</p>
         <div className="botonPrecio">
-        <a href="#" className="btn btn-danger">Comprar</a>
+        <a href="#" className="btn btn-danger">Información</a>
         </div>
     </div>
 </div>

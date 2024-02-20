@@ -33,7 +33,7 @@ function Header (){
         >
               <Nav.Link><Link to="/">Home</Link></Nav.Link>
               <Nav.Link><Link to="/contacto">Contacto</Link></Nav.Link>
-              <Nav.Link><Link to="/informacion">Sobre King</Link></Nav.Link>
+              <Nav.Link><Link to="/informacion">Biblioteca King</Link></Nav.Link>
           
         </Nav>
         <Form id="buscar" className="d-flex">

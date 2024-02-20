@@ -4,7 +4,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: rgb(235, 235, 186);
+    background-color: rgb(227, 228, 230);
     padding-top: 4rem;
     border-top: 1px solid rgb(210, 210, 210);
 }  
@@ -17,7 +17,7 @@
 } 
 .tarjetasFlex{
     border-bottom: 1px solid rgb(210,210,210);
-    background-color:rgb(235, 235, 186);
+    background-color:rgb(227, 228, 230);
     padding-bottom: 2rem;
     display: flex;
     flex-direction: row;
