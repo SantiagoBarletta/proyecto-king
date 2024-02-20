@@ -41,7 +41,7 @@ color: rgb(139, 79, 0);
     color: black;
 }
 a:hover{
-    color: rgb(110, 3, 3); 
+    color: rgb(201, 2, 2); 
     cursor: pointer;
     transition: 1s;
     font-weight: bolder;

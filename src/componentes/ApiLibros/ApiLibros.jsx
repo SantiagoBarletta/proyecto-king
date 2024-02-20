@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './ApiLibros.css'
 
+
 function ApiLibros() {
   
     const [books, setBooks] = useState([]);
+
+    const [cargando, setCargando] = useState(true);
+
 
     useEffect(() => {
       const fetchBooks = async () => {
@@ -15,7 +19,7 @@ function ApiLibros() {
           setBooks(data.docs);
         } catch (error) {
           console.error('Error recopilando la info:', error);
-        }
+        } finally{setCargando(false)};
       };
   
       fetchBooks();
@@ -26,9 +30,11 @@ function ApiLibros() {
        <div className='titulo'><h1>Libros de Stephen King</h1></div>
          
     <main className = "tarjetasFlex">
+    {cargando &&  <p>Cargando...</p>}
+    {!cargando && 
 
+    books.map((book, index) => (
 
-    {books.map((book, index) => (
     <div className="card">
     <img src= {`https://covers.openlibrary.org/b/id/${book.cover_i}-L.jpg`} className="card-img-top" alt="Imágen de la portada del libro {props.titulo}"/>
     <div className="card-body">

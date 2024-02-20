@@ -3,7 +3,7 @@
 .tituloContacto {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    color: rgb(206,149,0);
+    color: rgb(255,183,0);
     font-size: 2.5rem;
     text-decoration-line: overline;
     padding-top: 4rem;
@@ -13,7 +13,7 @@
   }
 
 .boton{
-  background-color: rgb(206,149,0);
+  background-color: rgb(255, 183, 0);
   color: white;
   padding: 1rem 1.5rem;
   font-size: 1.5rem;
@@ -25,7 +25,7 @@
   cursor: pointer;
   transition: 1s;
   font-weight: bolder;
-  background-color: rgb(110, 3, 3);
+  background-color:rgb(201, 2, 2);
 }
 
 

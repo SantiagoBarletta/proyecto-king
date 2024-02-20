@@ -4,9 +4,10 @@ import Header from "./componentes/Header/Header";
 import Footer from "./componentes/Footer/Footer";
 import ListaDeLibros from "./componentes/Tarjetas/ListaDeLibros";
 import Contacto from "./componentes/Contacto/Contacto";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //Rutas
+import { BrowserRouter as Router, Routes, Route, Pagination } from "react-router-dom"; //Rutas
 import DetalleLibro from "./componentes/Tarjetas/DetalleLibro";
 import ApiLibros from './componentes/ApiLibros/ApiLibros';
+
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<ListaDeLibros />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/libros/:id" element={<DetalleLibro/>} />
-          <Route path="/informacion" element={<ApiLibros/>} />
+          <Route path="/informacion/" element={<ApiLibros/>} />
           <Route path="*" element={<h1>Pagina no encontrada</h1>} />
         </Routes>
       </main>
